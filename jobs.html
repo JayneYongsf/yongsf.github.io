@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaJam Coffee House</title>
+    <link rel="stylesheet" href="javajam.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <!--
+                <img src="images/windingroad.jpg" alt="windingroad" height="300" width="300" align="right">
+            -->
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to start your application.Required
+                fields are marked with an asterisk (*).</p>
+            <form action="https://webdevbasics.net/scripts/javajam8.php" method="post">
+
+                <label for="name">*Name:</label>
+                <input type="text" id="myName" name="name" required><br>
+
+                <label for="email">*E-mail:</label>
+                <input type="email" id="myEmail" name="email" required><br>
+
+                <label for="experience">*Experience:</label>
+                <textarea id="myExperience" name="experience" rows="2" cols="20"></textarea><br><br>
+
+                <input type="submit" value="Apply Now" id="mySubmit">
+            </form> 
+            <!--<div>
+                12010 Garrett Bay Road<br>
+                Ellison Bay, WI 54210<br>
+                888-555-5555<br>
+            </div>-->
+        </main>
+        <br>
+        <footer>
+                    Copyright &copy; 2018 JavaJam Coffee House<br>
+                    <a href="mailto:yongsf-wp23@student.tarc.edu.my">yongsf-wp23@student.tarc.edu.my</a>
+        </footer>
+    </div>
+</body>
+
+</html>
